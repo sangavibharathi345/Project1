@@ -1,0 +1,79 @@
+body{
+    background: rgb(239, 233, 220);
+}
+
+.registration {
+    width: 330px;
+    height: 470px;
+    border-radius: 50px;
+    /*border-style: inset;
+    border-width: 5px 0px 5px;
+    border-color: grey; */
+
+    box-shadow: inset 6px 6px 10px grey, inset -8px -8px 10px white, -8px -8px 10px white, 8px 8px 10px grey;
+    background-color: rgb(165, 241, 196);
+    margin: 40px auto 0px auto;
+}
+.registration:hover{
+    transition: 5s;
+    background: linear-gradient(rgba(237, 135, 203, 0.778), rgb(178, 228, 178));
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    text-decoration:solid;
+    color:rgb(8, 10, 134)
+}
+svg{
+    width: 80px;
+    height: 40px;
+    color:rgb(174, 114, 184);
+}
+.login{
+    padding: 0px 30px;
+}
+label{
+    font-family:'Times New Roman';
+    font-size: 15px;
+    line-height: 2;
+}
+input{
+    width: 250px;
+    height: 23px;
+    border-width: 0px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: inset 3px 3px 2px rgb(168, 168, 157), inset -2px -2px 2px rgb(169, 165, 165);
+    background-color: rgb(157, 207, 207);
+    cursor:pointer;
+    text-indent: 10px;
+}
+button{
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 24px 0px 0px 50px;
+    color:rgb(188, 123, 201);
+    border: 0px;
+    font-family: Courier New;
+    font-weight:bold;
+    box-shadow: 3px 3px 3px rgb(195, 122, 192), inset 3px 2px 3px rgb(179, 172, 227);
+}
+button:hover{
+    box-shadow: inset 20px 0px 70px rgb(228, 140, 212);
+}
+.forget{
+    margin: 0px 80px;
+}
+.create{
+    margin: 0px 80px;
+}
+p{
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+}
+a{
+    text-decoration: underline;
+    color:rgb(189, 123, 123);
+}
